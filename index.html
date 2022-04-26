@@ -6,105 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="content">
-      <div class="header-section">
-        <div class="header">
-          <div class="header-logo">Header Logo <a href=""></a></div>
-          <ul>
-            <li><a href="">header link one</a></li>
-            <li><a href="">header link two</a></li>
-            <li><a href="">header link three</a></li>
-          </ul>
+    <div class="container">
+      <nav class="header">
+        <div class="header-logo">
+          <a href="">
+            <img src="./imgs/flavor-galore-logo.jpg" alt="flavor galore logo"
+          </a>
         </div>
-        <div class="info">
-          <div class="info-title">
-            <h1>This website is awesome</h1>
-            <p class="info-text">
-              This Website has some subtext that goes here under the main title.
-              It's a smaller font and the color is lower contrast
-            </p>
-            <button class="btn">Sign up</button>
-          </div>
-          <img
-            class="info-img"
-            src="/home/kabilla/Downloads/minibot-4823312_1920.png"
-            alt="an image"
-          />
+
+        <ul class="header-links">
+          <li><a href="">Flavors</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div>
+          <h1 class="hero-main">Welcome to the Flavor Galore!</h1>
+          <p class="hero-secondary">
+            Are you craving for some sweet delicious ice cream? if you are
+          </p>
+          <button class="btn">Order some now!</button>
         </div>
+        <img
+          class="hero-img"
+          src="./imgs/hero-img.jpg"
+          alt="picture of different icecream flavors"
+        />
       </div>
-      <div class="examples-section">
-        <div class="examples-title">some random info</div>
+      <div class="info">
+        <div class="info-header">Some of our customer's favorite flavors</div>
         <div class="card-section">
           <div class="card">
-            <div class="card-border">
-              <img
-                class="card-img"
-                src="/home/kabilla/Downloads/minibot-4823312_1920.png"
-                alt="an image"
-              />
-            </div>
-            <div class="card-text">
-              this is some subtext under an illustration or image
-            </div>
+            <img
+              class="card-img"
+              src="./imgs/chocolate.jpg"
+              alt="chocolate icecream"
+            />
+            <div class="card-text">Chocolate</div>
           </div>
           <div class="card">
-            <div class="card-border">
-              <img
-                class="card-img"
-                src="/home/kabilla/Downloads/minibot-4823312_1920.png"
-                alt="an image"
-              />
-            </div>
-            <div class="card-text">
-              this is some subtext under an illustration or image
-            </div>
+            <img
+              class="card-img"
+              src="./imgs/strawberry-icecream.jpg"
+              alt="strawberry icecream"
+              alt="an image"
+            />
+            <div class="card-text">Strawberry</div>
           </div>
           <div class="card">
-            <div class="card-border">
-              <img
-                class="card-img"
-                src="/home/kabilla/Downloads/minibot-4823312_1920.png"
-                alt="an image"
-              />
-            </div>
-            <div class="card-text">
-              this is some subtext under an illustration or image
-            </div>
+            <img
+              class="card-img"
+              src="./imgs/mango-icecream.jpg"
+              alt="mango icecream"
+            />
+            <div class="card-text">Mango</div>
           </div>
           <div class="card">
-            <div class="card-border">
-              <img
-                class="card-img"
-                src="/home/kabilla/Downloads/minibot-4823312_1920.png"
-                alt="an image"
-              />
-            </div>
-            <div class="card-text">
-              this is some subtext under an illustration or image
-            </div>
+            <img
+              class="card-img"
+              src="./imgs/butter-pecan.jpg"
+              alt="butter-pecan icecream"
+            />
+
+            <div class="card-text">Butter-pecan</div>
           </div>
         </div>
       </div>
-      <div class="quote-section">
-        <p class="quote">
-          This is an inspiring quote, or a testimonial from a customer. Maybe
-          it's just filling up space or maybe people will actually read it. who
-          knows? All I know is that it looks nice.
-        </p>
-        <div class="quotee">-Thor God of Thunder</div>
+      <div class="quote">
+        <q
+          >You can't buy happiness, but you can buy ice cream, and that is
+          pretty much the same thing.</q
+        >
+        <div>-An ancient Sage</div>
       </div>
-      <div class="call-to-action">
-        <div>
-          <h4>Call to action! it's time!</h4>
-          <p>
-            Sign up for our product by clicking that button right over there!
-          </p>
+      <div class="section-5">
+        <div class="call-to-action">
+          <div>
+            <h4>Call to action! it's time!</h4>
+            <p>Create an account to get an up to 20% discount!</p>
+          </div>
+          <button class="btn card-btn">Sign up</button>
         </div>
-        <button class="btn">Sign up</button>
       </div>
-      <div class="footer">Copyright c The Odin Project 2021</div>
+      <div class="footer">Copyright &#xA9; The Odin Project 2021</div>
     </div>
   </body>
 </html>
